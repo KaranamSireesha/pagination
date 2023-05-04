@@ -25,7 +25,7 @@ if (pageCount > 1) {
     for (i = s; i < (s + rowsPerPage) && i < tr.length; i++)
       rows += tr[i];
       table.innerHTML = rows;
-    // document.getElementById("pagenum").innerHTML = pageButtons(pageCount, page);
+   
     }
 
 
